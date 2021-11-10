@@ -12,7 +12,7 @@ run need help to modify this extension allowing user to select his repo and bran
 You can currently install this directly from git:
 
 ```
-pip install git+https://github.com/sat28/githubcommit.git
+pip install git+https://github.com/engineerali2009/GitHubWithJupyter.git
 jupyter serverextension enable --py githubcommit
 jupyter nbextension install --py githubcommit --user
 ```
@@ -24,9 +24,6 @@ jupyter nbextension enable githubcommit --user --py
 ```
 
 ## Steps
-I have made this short video in which I install the extension from scratch (click on the image)- 
-
-[![Watch the video](https://i.ibb.co/7bk1bJ2/Webp-net-resizeimage.png)](https://www.youtube.com/watch?v=1XPSK1mxfgQ)
 
 * Install package using above commands
 * Create Git repo where notebooks will be pushed if not already exists and clone it in your `GIT_PARENT_DIR`
@@ -41,21 +38,14 @@ export GIT_PARENT_DIR=~ <br />
 export GIT_REPO_NAME=gitjupyter <br />
 export GIT_BRANCH_NAME=master <br />
 export GIT_USER=sat28 <br />
-export GIT_EMAIL=anand.shaleen@gmail.com <br />
+export GIT_EMAIL=engineerali2009@gmail.com <br />
 export GITHUB_ACCESS_TOKEN=#access-token from github developer settings <br />
-export GIT_USER_UPSTREAM=sat28 <br />
+export GIT_USER_UPSTREAM=engineerali2009 <br />
 
-## Screenshots
-
-![Extension](screens/extension.png?raw=true "Extension added to toolbar")
-
-![Commit Message](screens/commit.png?raw=true "Commit Message")
-
-![Success Message](screens/success.png?raw=true "Success Message")
 
 ## Credits
 
 Thanks to https://github.com/Lab41/sunny-side-up for laying the foundation of this extension.
 
-Thanks to https://github.com/justvarshney for support.
+Thanks to https://github.com/sat28 for support.
 
